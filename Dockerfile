@@ -1,5 +1,6 @@
 FROM ubuntu:precise
 
+run apt-get install
 run apt-get install -y curl build-essential git-core
 
 # Install Go (this is copied from the docker Dockerfile)
